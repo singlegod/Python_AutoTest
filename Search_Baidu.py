@@ -8,7 +8,6 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 
-
 @allure.feature('百度搜索模块测试')
 class TestBaiduSearch:
     def get_dir(self):
